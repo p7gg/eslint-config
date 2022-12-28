@@ -1,6 +1,6 @@
 {
   "name": "@p7gg/eslint-config-monorepo",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "Gabriel Silva <gbos360@hotmail.com> (https://github.com/p7gg/)",
@@ -11,7 +11,6 @@
     "prepare": "pnpm -r run stub",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
     "update-deps": "taze -w -r -I"
-
   },
   "devDependencies": {
     "@p7gg/eslint-config": "*",

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-p7gg",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "license": "MIT",
   "homepage": "https://github.com/p7gg/eslint-config",
   "main": "./dist/index.cjs",
