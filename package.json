@@ -1,6 +1,6 @@
 {
   "name": "@p7gg/eslint-config-monorepo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "Gabriel Silva <gbos360@hotmail.com> (https://github.com/p7gg/)",
