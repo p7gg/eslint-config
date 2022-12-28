@@ -1,0 +1,6 @@
+{
+  "extends": "@p7gg",
+  "plugins": [
+    "p7gg"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@p7gg/eslint-config-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@7.1.0",
+  "author": "Gabriel Silva <gbos360@hotmail.com> (https://github.com/p7gg/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "pnpm -r run test",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "@p7gg/eslint-config": "*",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.29.0",
+    "eslint-plugin-p7gg": "workspace:*",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4"
+  }
+}
