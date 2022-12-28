@@ -6,7 +6,7 @@ if (!TS)
   console.warn('[@p7gg/eslint-config] TypeScript is not installed, fallback to JS only.')
 
 module.exports = {
-  plugins: ["solid"],
+  plugins: ['solid'],
   extends: [
     TS
       ? 'plugin:solid/typescript'
